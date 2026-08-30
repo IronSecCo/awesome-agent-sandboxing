@@ -30,6 +30,7 @@ Run agents on infrastructure you control, with the sandbox as part of the runtim
 
 - [IronClaw](https://github.com/IronSecCo/ironclaw) - Security-first, self-hosted runtime for autonomous AI agents. One gVisor-backed sandbox per conversation with `network=none`, a read-only rootfs, a host-side proxy so provider keys never enter the box, and a human-approval gateway. AGPLv3 + commercial. `#agent-sandboxing`
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Autonomous software-development agent that executes actions inside a per-session Docker sandbox runtime. Open source (MIT).
+- [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) - Apache-2.0 local-first TypeScript runtime with MCP/tool governance, persistent sessions, approvals, audit/replay, and Local, Docker, Kubernetes, and self-hosted worker sandbox backends; local path isolation and stronger backend properties must be evaluated separately.
 - [gVisor + Docker sandbox recipes](https://gvisor.dev/docs/user_guide/quick_start/docker/) - Reference for wiring the `runsc` runtime under Docker to sandbox untrusted workloads, a common building block for DIY agent runtimes.
 - [Open Interpreter](https://github.com/OpenInterpreter/open-interpreter) - Runs LLM-generated code locally; offers a `--os` / offline mode and documents containerized execution for isolating that code. Open source (AGPLv3).
 
