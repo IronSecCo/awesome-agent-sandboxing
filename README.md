@@ -42,6 +42,7 @@ Managed cloud sandboxes: you call an API, the vendor runs the isolated environme
 - [Daytona](https://github.com/daytonaio/daytona) - Fast, ephemeral sandboxes for executing AI-generated code, with a focus on sub-second spin-up. Open source (AGPLv3) with a hosted offering.
 - [Runloop](https://www.runloop.ai/) - Managed "Devboxes": cloud sandboxes aimed at coding agents and long-running agent tasks.
 - [Northflank](https://northflank.com/) - Self-serviceable platform that can run isolated containerized workloads and jobs, used to host agent execution environments.
+- [Sandbox0](https://sandbox0.ai) - Managed cloud computers for agents with gVisor isolation and persistent writable filesystems across checkpoints (hosted platform).
 
 ## Kernel-level and container isolation
 
